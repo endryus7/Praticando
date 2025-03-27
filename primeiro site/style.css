@@ -1,0 +1,62 @@
+@import "UTF=8";
+
+body{
+    background-color: rgba(248, 234, 216, 0.781);
+    padding: 100px;
+}
+
+main{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.imagem{
+    padding: 10px;
+}
+
+.imagem-omelete{
+    border-radius: 20px;
+    text-align: center;
+}
+
+.introdução{
+    padding: 10px;
+}
+
+.titulo-princiapl{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style:  italic;
+}
+
+.tempo{
+    background-color: rgba(252, 203, 211, 0.226);
+    padding: 10px 20px;
+}
+
+.tempo > h2{
+    color: rgb(151, 83, 129)
+}
+
+.listadotempo{
+    line-height: 30px;
+    li::marker {
+      color: rgb(151, 83, 129);
+    }
+}
+
+.titulo{
+    color: rgb(172, 111, 32);
+}
+
+.listas{
+    line-height: 30px;
+    li::marker {
+      color: rgb(172, 111, 32);
+    }
+}
+
+.conteudo{
+    border-bottom: 1px solid black;
+}
