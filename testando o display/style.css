@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    
+}
+
+.imagem1{
+    border-radius: 20px;
+    width:500px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+
+p{
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 10px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
