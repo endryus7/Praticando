@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+:root {
+    --color-1: #162440;
+    --color-2: #F56A19;
+    --color-3: #D94B18;
+    --color-4: #73280D;
+    --color-5: #E7EFF2;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 100vw;
+    height: 100vh;
+}
