@@ -112,13 +112,17 @@ span.lançamento {
 }
 
 section > div.imagem {
-    flex: 0 0 500px;
-    background: url(imagens-projeto/image-keyboard.jpg) no-repeat;
-    background-size: 790px;
-    background-position: left bottom;
+    flex: ;
+    background: url(imagens-projeto/Keychron-K2-Wireles-05-300x300.jpg) no-repeat;
     border-radius: 20px;
-    height: 400px;
     margin: auto;
+    width: 500px;
+}
+
+div.imagem > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
 }
 
 section.container-quadrado {
@@ -129,4 +133,24 @@ section.container-quadrado {
     width: 230px;
     height: 200px;
     border-radius: 20px;
+}
+
+section.container2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    border: 2px dashed blueviolet;
+    margin: auto;
+}
+
+
+section > div.imagem-dupla {
+    width: 650px;
+    border: 2px dashed rgb(43, 61, 226);
+}
+
+div.imagem-dupla > img {
+    width: 240px;
+    height: 400px;
+    
 }
