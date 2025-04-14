@@ -5,28 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site 6</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
     <script src="https://kit.fontawesome.com/37deba48f3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <div class="logo-pizza">
-            <img src="projeto-site-de-pizza/pngtree-cartoon-yellow-pizza-illustration-png-image_4634672-removebg-preview.png" alt="logo da pizzaria">
+            <img src="imagens-pizza/pngtree-cartoon-yellow-pizza-illustration-png-image_4634672-removebg-preview.png" alt="logo da pizzaria">
             <p>PizzaShop</p>
         </div>
         <nav>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre nós</a></li>
-                <li><a href="#">Cardápio</a></li>
-                <li><a href="#">Contatos</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre-nos">Sobre nós</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#contatos">Contatos</a></li>
                 <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
                 <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li> 
             </ul>
+            <div class="menu-hamburger">
+                <div class="um"></div>
+                <div class="dois"> </div>
+                <div class="tres"> </div>
+            </div>
         </nav>
     </header>
     <main>
-        <section class="section1">
+        <section class="section1" id="home">
             <div class="conteudo-principal">
                 <h1>Deixe seu dia mais saboroso!!!</h1>
                 <h2>As pizzas mais recheadas da região</h2>
@@ -36,119 +42,123 @@
                 <button class="montar">Montar a sua pizza!</button>
             </div>
         </section>
-        <section class="section2">
+        <section class="section2" id="sobre-nos">
             <div class="sobre-nos">
                 <div class="texto-sobrenos">
                     <h1>Sobre nós</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio numquam molestias possimus! Voluptatem magni laudantium, sunt eius totam cum facilis temporibus iusto quas quia exercitationem deserunt obcaecati quis voluptate in. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem ipsum ipsa mollitia provident iste doloremque? Earum, ullam officia? Odio quasi veritatis laboriosam architecto repudiandae deleniti rerum est maiores fugiat ab. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt minus modi sequi sunt iusto? Suscipit animi blanditiis soluta iste asperiores sit aut aspernatur voluptate architecto dolore, reprehenderit ipsum nulla voluptatum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio numquam molestias possimus! Voluptatem magni laudantium, sunt eius totam cum facilis temporibus iusto quas quia exercitationem deserunt obcaecati quis voluptate in. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem ipsum ipsa mollitia provident iste doloremque? Earum, ullam officia? Odio quasi veritatis laboriosam architecto repudiandae deleniti rerum est maiores fugiat ab. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt minus modi sequi sunt iusto? Suscipit animi blanditiis soluta iste asperiores sit aut aspernatur voluptate architecto dolore, reprehenderit ipsum nulla voluptatum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, fugiat nam laboriosam iste quibusdam nostrum inventore animi veniam assumenda dicta harum ex iusto quisquam expedita error accusamus sequi adipisci quos.</p>
                 </div>
                 <div class="cozinha">
-                    <img src="projeto-site-de-pizza/cozinha.jpg" alt="cozinha">
+                    <img src="imagens-pizza/cozinha.jpg" alt="cozinha">
                 </div>
             </div>
         </section>
-        <section class="section3">
-            <div>
-                <h1>CARDÁPIO</h1>
-            </div>
-            <div>
+        <section class="cardapio" id="cardapio">
+           <h1>CARDÁPIO</h1>
+            <div class="itens-cardapio">
                 <div>
-                    <img src="" alt="">
-                    <h2>Frango</h2>
-                    <ul>
-                        <li>6 FATIAS</li>
-                        <li>8 FATIAS</li>
-                        <li>12 FATIAS</li>
-                    </ul>
-                    <button>PEDIR AGORA</button>
+                    <img src="imagens-pizza/sabores-de-pizza/frango-removebg-preview.png" alt="">
+                    <div class="info">
+                        <h2>Frango</h2>
+                        <h4>6 FATIAS <span>R$35,00</span></h4>
+                        <h4>8 FATIAS <span>R$45,00</span></h4>
+                        <h4>12 FATIAS <span>R$55,00</span></h4>
+                        <button class="pedir">Pedir agora</button>
+                    </div>
                 </div>
                 <div>
-                    <img src="" alt="">
-                    <h2>Frango</h2>
-                    <ul>
-                        <li>6 FATIAS</li>
-                        <li>8 FATIAS</li>
-                        <li>12 FATIAS</li>
-                    </ul>
-                    <button>PEDIR AGORA</button>
+                    <img src="imagens-pizza/sabores-de-pizza/calabresa-removebg-preview.png" alt="">
+                    <div class="info">
+                        <h2>Calabresa</h2>
+                        <h4>6 FATIAS <span>R$35,00</span></h4>
+                        <h4>8 FATIAS <span>R$45,00</span></h4>
+                        <h4>12 FATIAS <span>R$55,00</span></h4>
+                        <button class="pedir">Pedir agora</button>
+                    </div>
                 </div>
                 <div>
-                    <img src="" alt="">
-                    <h2>Frango</h2>
-                    <ul>
-                        <li>6 FATIAS</li>
-                        <li>8 FATIAS</li>
-                        <li>12 FATIAS</li>
-                    </ul>
-                    <button>PEDIR AGORA</button>
+                    <img src="imagens-pizza/sabores-de-pizza/portuguesa-removebg-preview.png" alt="">
+                    <div class="info">
+                        <h2>Portuguesa</h2>
+                        <h4>6 FATIAS <span>R$35,00</span></h4>
+                        <h4>8 FATIAS <span>R$45,00</span></h4>
+                        <h4>12 FATIAS <span>R$55,00</span></h4>
+                        <button class="pedir">Pedir agora</button>
+                    </div>
                 </div>
                 <div>
-                    <img src="" alt="">
-                    <h2>Frango</h2>
-                    <ul>
-                        <li>6 FATIAS</li>
-                        <li>8 FATIAS</li>
-                        <li>12 FATIAS</li>
-                    </ul>
-                    <button>PEDIR AGORA</button>
+                    <img src="imagens-pizza/sabores-de-pizza/strogonoff-removebg-preview.png" alt="">
+                    <div class="info">
+                        <h2>Strogonoff</h2>
+                        <h4>6 FATIAS <span>R$35,00</span></h4>
+                        <h4>8 FATIAS <span>R$45,00</span></h4>
+                        <h4>12 FATIAS <span>R$55,00</span></h4>
+                        <button class="pedir">Pedir agora</button>
+                    </div>
                 </div>
                 <div>
-                    <img src="" alt="">
-                    <h2>Frango</h2>
-                    <ul>
-                        <li>6 FATIAS</li>
-                        <li>8 FATIAS</li>
-                        <li>12 FATIAS</li>
-                    </ul>
-                    <button>PEDIR AGORA</button>
+                    <img src="imagens-pizza/sabores-de-pizza/chocolate-removebg-preview.png" alt="">
+                    <div class="info">
+                        <h2>Chocolate</h2>
+                        <h4>6 FATIAS <span>R$35,00</span></h4>
+                        <h4>8 FATIAS <span>R$45,00</span></h4>
+                        <h4>12 FATIAS <span>R$55,00</span></h4>
+                        <button class="pedir">Pedir agora</button>
+                    </div>
                 </div>
                 <div>
-                    <img src="" alt="">
-                    <h2>Frango</h2>
-                    <ul>
-                        <li>6 FATIAS</li>
-                        <li>8 FATIAS</li>
-                        <li>12 FATIAS</li>
-                    </ul>
-                    <button>PEDIR AGORA</button>
+                    <img src="imagens-pizza/sabores-de-pizza/confete-removebg-preview.png" alt="">
+                    <div class="info">
+                        <h2>Confete</h2>
+                        <h4>6 FATIAS <span>R$35,00</span></h4>
+                        <h4>8 FATIAS <span>R$45,00</span></h4>
+                        <h4>12 FATIAS <span>R$55,00</span></h4>
+                        <button class="pedir">Pedir agora</button>
+                    </div>
                 </div>
                 <div>
-                    <img src="" alt="">
-                    <h2>Frango</h2>
-                    <ul>
-                        <li>6 FATIAS</li>
-                        <li>8 FATIAS</li>
-                        <li>12 FATIAS</li>
-                    </ul>
-                    <button>PEDIR AGORA</button>
+                    <img src="imagens-pizza/sabores-de-pizza/prestigio-removebg-preview.png" alt="">
+                    <div class="info">
+                        <h2>Prestigio</h2>
+                        <h4>6 FATIAS <span>R$35,00</span></h4>
+                        <h4>8 FATIAS <span>R$45,00</span></h4>
+                        <h4>12 FATIAS <span>R$55,00</span></h4>
+                        <button class="pedir">Pedir agora</button>
+                    </div>
                 </div>
                 <div>
-                    <img src="" alt="">
-                    <h2>Frango</h2>
-                    <ul>
-                        <li>6 FATIAS</li>
-                        <li>8 FATIAS</li>
-                        <li>12 FATIAS</li>
-                    </ul>
-                    <button>PEDIR AGORA</button>
+                    <img src="imagens-pizza/sabores-de-pizza/sensacao-removebg-preview.png" alt="">
+                    <div class="info">
+                        <h2>Sensação</h2>
+                        <h4>6 FATIAS <span>R$35,00</span></h4>
+                        <h4>8 FATIAS <span>R$45,00</span></h4>
+                        <h4>12 FATIAS <span>R$55,00</span></h4>
+                        <button class="pedir">Pedir agora</button>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="section4">
-            <div class="contato">
-                <h1>Contatos</h1>
-            </div>
-            <div class="redes">
-                <ul>
-                    <li>telefone</li>
-                    <li>linkedln</li>
-                    <li>github</li>
-                </ul>
-            </div>
+        <section class="contatos" id="contatos">
+             <h1>Contatos</h1>
+             <div class="redes">
+                 <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>(51) 98200-6910</span>
+                 </div>
+                 <div>
+                    <i class="fa-brands fa-instagram"></i>
+                    <a href="https://www.instagram.com/endryus_7/" target="_blank"><span>@endryus_7</span></a>
+                 </div>
+                 <div>
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/endryus-montezano" target="_blank"><span>endryus-montezano</span></a>
+                 </div>
+             </div>
         </section>
     </main>
     <footer>
         <p>Desenvolvido por -> Endryus Montezano</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

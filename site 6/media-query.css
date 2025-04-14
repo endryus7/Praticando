@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1200px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 12%;
+        padding-left: 0px;
+    }
+
+    .sobre-nos {
+        display: block;
+    }
+
+    .section2 img {
+        width: 600px;
+        margin-left: -2px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    header nav .menu a{
+        font-size: 16px;
+    }
+
+    .section1 .conteudo-principal h1 {
+        font-size: 35px;
+    }
+
+    .itens-cardapio {
+        grid-template-columns: repeat(2, minmax(50px, 350px));
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        padding: 0px 40px;
+    }
+
+    header .menu {
+        display: none;
+    }
+
+    .menu-hamburger {
+        width: 30px;
+        height: 30px;
+    }
+
+    .um,
+    .dois,
+    .tres {
+        width: 80%;
+        height: 2px;
+        background-color: white;
+        margin: 6px auto;
+        transition-duration: 0.5s;
+    }
+
+    header.on {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(30, 31, 30, 0.897);
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header.on .logo-pizza {
+        display: none;
+    }
+
+    header.on .menu-hamburger {
+        position: absolute;
+        right: 40px;
+        top: 30px;
+    }
+
+    header.on .menu {
+        display: block;
+    }
+
+    header.on .menu li {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    header.on .menu li a {
+        font-size: 20px;
+    }
+
+    header.on .menu-hamburger .dois {
+        opacity: 0;
+    }
+
+    header.on .menu-hamburger .um {
+        transform: rotate(45deg) translate(5px, -8px);
+    }
+
+    header.on .menu-hamburger .tres {
+        transform: rotate(-45deg) translate(20px, -6px);
+    }
+
+    .section1 .conteudo-principal h1 {
+        font-size: 25px;
+    }
+
+    .section1 .conteudo-principal h2 {
+        font-size: 20px;
+    }
+
+    .section2 .texto-sobrenos p {
+        width: 500px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .section2 img {
+        width: 500px;
+        margin-left: 20px;
+    }
+
+    .cardapio h1 {
+        font-size: 28px;
+    }
+
+    .itens-cardapio {
+        grid-template-columns: repeat(2, minmax(50px, 350px));
+    }
+
+    .itens-cardapio .info h4, span {
+        width: 50px;
+    }
+
+    .redes {
+        width: 300px;
+        flex-flow: column;
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .itens-cardapio {
+        grid-template-columns: repeat(auto-fit, minmax(50px , 350px));
+    }
+
+    .section2 img {
+        width: 500px;
+        margin-left: 10px;
+    }
+
+    .section2 .texto-sobrenos p {
+        width: 500px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .redes {
+        width: 300px;
+        flex-flow: column;
+        gap: 25px;
+    }
+}
