@@ -50,7 +50,6 @@ input {
     height: 30px;
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.253);
-    color: rgba(0, 0, 139, 0.473);
 }
 
 .container_info .botao {
@@ -68,14 +67,20 @@ button {
     color: #FFF;
 }
 
-.container_info .resultado {
+.container_info #resultado {
     background-color: aliceblue;
     color: rgb(9, 119, 223);
     border-radius: 15px;
     margin-top: 2rem;
     padding: 2rem;
     text-align: center;
+    font-size: 24px;
 }
+
+.container_info p {
+    margin-bottom: 1rem;
+}
+
 
 
 
